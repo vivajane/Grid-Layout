@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    min-height: 100%;
+}
+
+.panel-one {
+    display: grid;
+    background-color: black;
+    grid-auto-rows: 1fr;
+    padding: 30px 60px;
+}
+.panel-two {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+}
+.panel-two  img {
+    overflow: hidden;
+    width: 100%;
+}
+.panel-three {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.panel-three img {
+    overflow: hidden;
+    width: 100%;
+}
+.once a {
+    color: aliceblue; 
+}
+.panel-one h2,p{
+    color: aliceblue;
+}
+.panel-one .onceee {
+    align-self: end;
+}
+.twice p{
+    color: black;
+    padding-top: 20px;
+}
+.thrice p{
+    color: black;
+    padding-top: 20px;
+    
+}
+.once a{
+    text-decoration: none;
+    padding: 20px;
+}
+.oncee{
+    margin: 1em auto;
+    padding: 20px;
+}
+.oncee p{
+    line-height: 30px;
+    padding-top: 20px;
+    margin-left: 5px;
+    
+}
+
+.twice{
+    background-color: bisque;
+    padding: 20px 30px;
+}
+
+.thrice{
+    background-color: bisque;
+    padding: 20px 30px;
+}
+
